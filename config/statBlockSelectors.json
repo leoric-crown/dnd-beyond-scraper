@@ -1,0 +1,36 @@
+{
+    "header": {
+        "name": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__header > div.mon-stat-block__name",
+        "meta": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__header > div.mon-stat-block__meta"
+    },
+    "attributes": {
+        "selector": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__attributes > div.mon-stat-block__attribute",
+        "data": {
+            "label": ".mon-stat-block__attribute-label",
+            "value": ".mon-stat-block__attribute-data-value",
+            "extra": ".mon-stat-block__attribute-data-extra"
+        }
+    },
+    "abilities": {
+        "selector": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__stat-block > div.ability-block",
+        "data": {
+            "header": ".ability-block__heading",
+            "score": ".ability-block__score",
+            "modifier": ".ability-block__modifier"
+        }
+    },
+    "tidbits": {
+        "selector": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__tidbits > div.mon-stat-block__tidbit",
+        "data": {
+            "label": ".mon-stat-block__tidbit-label",
+            "data": ".mon-stat-block__tidbit-data"
+        }
+    },
+    "descriptionBlocks": {
+        "selector": "#content > section > div > div.more-info.details-more-info > div > div.mon-stat-block > div.mon-stat-block__description-blocks > div.mon-stat-block__description-block",
+        "data": {
+            "header": ".mon-stat-block__description-block-heading",
+            "content": ".mon-stat-block__description-block-content"
+        }
+    }
+}
